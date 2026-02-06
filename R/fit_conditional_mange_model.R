@@ -6,7 +6,7 @@ inits <- readRDS(./data/inits.rds)
 start <- Sys.time()
 cl <- parallel::makeCluster(18)
 mout <- run.jags(
-  model = "./jags_script/conditional_model_autologistic.R",
+  model = "./R/jags_script/conditional_model_autologistic.R",
   monitor = c(
     'psi',
     'rho',
