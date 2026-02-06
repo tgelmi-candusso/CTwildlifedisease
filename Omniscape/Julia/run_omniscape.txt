@@ -1,0 +1,27 @@
+set JULIA_NUM_THREADS=16
+"C:\Users\tizge\AppData\Local\Programs\Julia-1.11.3\bin\julia.exe"
+Threads.nthreads()
+using Pkg
+using Omniscape;
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Seattle");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Atlanta");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Phoenix");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Toronto");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Edmonton");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Chicago");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\National_Capital_Area");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Berkeley");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\San_Francisco");
+run_omniscape("omniscape_exploiter.ini");
+cd("C:\\Users\\tizge\\Documents\\Mange project\\Mange_multicity\\connectivity_maps\\Indianapolis");
+run_omniscape("omniscape_exploiter.ini");
+;
+
